@@ -1,11 +1,17 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+//console.log("Hello World")
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+let pron = ['the','our', 'le'];
+
+let adj = ['great', 'big', 'magnificent'];
+
+let noun = ['jogger','racoon', 'mastodont'];
+
+for (let pronoun of pron) {
+  for (let adjective of adj) {
+    for (let nou of noun) {
+      console.log(pronoun+adjective+nou+".com")
+
+    }
+  }
+}
